@@ -20,17 +20,20 @@ header nav ul li{
   list-style: none;
   display: inline-block;
   margin: 20px;
+  position: relative;
 
 }
 header nav ul li a{
   text-decoration: none;
+  background-color: black;
 }
-header nav ul {
-  position: relative;
+header nav ul li ul{
+  position: absolute;
+  display: none;
 }
 
-header nav ul li ul{
-display: none;
+header nav ul li:hover> ul{
+display: block;
 }
 
 
